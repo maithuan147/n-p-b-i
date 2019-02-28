@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>shop</title>
+</head>
+<body>
+    <header>
+        <div class="header__address--border-bottom">
+            <div class="home-padding">
+                <div class="header__address">
+                    <span><img src="img/icon-telephone-before.svg" alt="#">0122.222.4002</span>
+                    <span><img src="img/icon-location-before.svg" alt="#">29/29 Đoàn Thị Điểm, P.1, Q, Phú Nhuận, TP.HCM</span>
+                    <a class="float-right header__address--border-right" href="#">Đăng Ký</a>
+                    <a class="float-right header__address--border-right1" href="#">Đăng Nhập</a>
+                </div>
+            </div>
+        </div>
+        <div class="home-padding">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="bug-home.html"><img src="img/icon-seach1-before.svg" alt="#">
+                    <div class="header__search">
+                    <h2>Shop Hàng Nhật</h2>
+                    <p>Chuyên Hàng Nội Địa Nhật Bản</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tất cả danh mục</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm Kiếm..." aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="img/header-search.png" alt="#"></button>
+                            </form>
+                        </li>
+                    </ul>
+                    <p class="header-cart"><img src="img/bg--icon-cart.svg" alt="#">&nbsp; - &nbsp;2 món</p>
+                </div>
+            </nav>
+        </div>
+        <div class="slide-bar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="home-padding-small">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link slide-bar--margin-left" href="bug-home.html">Trang Chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="introduce.html">Giới Thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link home-color-pink" href="shop.html">Cửa Hàng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Tư Vấn</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="shop">
+            <div class="home-padding">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="shop__title">
+                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><h3>Tất Cả Danh Mục</h3></a>
+                                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Xem Tất Cả</a>
+                                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Làm Đẹp</a>
+                                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Sức Khoẻ</a>
+                                    <a class="nav-link" id="v-pills-settings1-tab" data-toggle="pill" href="#v-pills-settings1" role="tab" aria-controls="v-pills-settings" aria-selected="false">Đời Sống</a>
+                                    <a class="nav-link" id="v-pills-settings2-tab" data-toggle="pill" href="#v-pills-settings2" role="tab" aria-controls="v-pills-settings" aria-selected="false">Thực Phẩm Chức Năng</a>
+                                    <a class="nav-link" id="v-pills-settings3-tab" data-toggle="pill" href="#v-pills-settings3" role="tab" aria-controls="v-pills-settings" aria-selected="false">Khác</a>
+                                </div>
+                                <h4>Mức Giá</h4>
+                                <div class="text-center">
+                                <img src="img/price.png" alt="#">
+                                <p>55,000 VNĐ - 6,000,000 VNĐ</p>
+                                <button><img src="img/price-filter.svg"> Áp dụng Lọc giá</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                    <div class="shop__section">
+                                        <p>Trang Chủ<img src="img/icon-shop-right.svg"><b>Tất cả danh mục</b></p>
+                                        <div class="shop__info">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h4>Tất cả danh mục</h4>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="nav-item">
+                                                        <div class="btn-group float-right">
+                                                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tất cả danh mục</button>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="#">Độ phổ biến </a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá cao xuống thấp</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá thấp đến cao</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shop__section-all">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                       <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                       <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide4.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Gel tẩy da chết BOTANICAL</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                    <div class="shop__section">
+                                        <p>Trang Chủ<img src="img/icon-shop-right.svg">Tất cả danh mục<img src="img/icon-shop-right.svg"><b>Xem Tất Cả</b></p>
+                                        <div class="shop__info">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h4>Xem Tất Cả</h4>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="nav-item">
+                                                        <div class="btn-group float-right">
+                                                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tất cả danh mục</button>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="#">Độ phổ biến </a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá cao xuống thấp</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá thấp đến cao</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shop__section-all">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                       <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                       <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide4.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Gel tẩy da chết BOTANICAL</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                    <div class="shop__section">
+                                        <p>Trang Chủ<img src="img/icon-shop-right.svg">Tất cả danh mục<img src="img/icon-shop-right.svg"><b>Làm Đẹp</b></p>
+                                        <div class="shop__info">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h4>Làm Đẹp</h4>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="nav-item">
+                                                        <div class="btn-group float-right">
+                                                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tất cả danh mục</button>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="#">Độ phổ biến </a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá cao xuống thấp</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá thấp đến cao</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shop__section-all">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                       <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                       <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide4.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Gel tẩy da chết BOTANICAL</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                    <div class="shop__section">
+                                        <p>Trang Chủ<img src="img/icon-shop-right.svg">Tất cả danh mục<img src="img/icon-shop-right.svg"><b>Sức Khoẻ</b></p>
+                                        <div class="shop__info">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h4>Sức Khoẻ</h4>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="nav-item">
+                                                        <div class="btn-group float-right">
+                                                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tất cả danh mục</button>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="#">Độ phổ biến </a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá cao xuống thấp</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá thấp đến cao</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shop__section-all">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                       <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                       <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide4.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Gel tẩy da chết BOTANICAL</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-settings1" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                    <div class="shop__section">
+                                        <p>Trang Chủ<img src="img/icon-shop-right.svg">Tất cả danh mục<img src="img/icon-shop-right.svg"><b>Đời Sống</b></p>
+                                        <div class="shop__info">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h4>Đời Sống</h4>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="nav-item">
+                                                        <div class="btn-group float-right">
+                                                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tất cả danh mục</button>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="#">Độ phổ biến </a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá cao xuống thấp</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá thấp đến cao</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shop__section-all">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                       <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                       <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide4.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Gel tẩy da chết BOTANICAL</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                    <div class="shop__section">
+                                        <p>Trang Chủ<img src="img/icon-shop-right.svg">Tất cả danh mục<img src="img/icon-shop-right.svg"><b>Thực Phẩm Chức Năng</b></p>
+                                        <div class="shop__info">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h4>Thực Phẩm Chức Năng</h4>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="nav-item">
+                                                        <div class="btn-group float-right">
+                                                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tất cả danh mục</button>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="#">Độ phổ biến </a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá cao xuống thấp</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá thấp đến cao</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shop__section-all">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                       <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                       <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide4.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Gel tẩy da chết BOTANICAL</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-settings3" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                    <div class="shop__section">
+                                        <p>Trang Chủ<img src="img/icon-shop-right.svg">Tất cả danh mục<img src="img/icon-shop-right.svg"><b>Khác</b></p>
+                                        <div class="shop__info">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h4>Khác</h4>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="nav-item">
+                                                        <div class="btn-group float-right">
+                                                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tất cả danh mục</button>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="#">Độ phổ biến </a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá cao xuống thấp</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Giá thấp đến cao</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shop__section-all">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                       <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                       <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide4.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Gel tẩy da chết BOTANICAL</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide3.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Kem dưỡng mắt MEISHOKU</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide2.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Trà giảm cân NIGHT DIET TEA</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                    <div class="hot-products__section-slide">
+                                                        <img src="img/featured-products__slide1.png" class="hot-products__section-img" alt="#">
+                                                        <p class="hot-products__section-first">Mặt nạ chống nhăn vùng mắt KOSE</p>
+                                                        <h5>300,000 VNĐ</h5>
+                                                        <p class="cart--color-pink"><img src="img/cart--color-pink.svg" alt="#"> Thêm vào giỏ hàng</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="shop-pagination">
+           <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#" tabindex="-1">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">...</a></li>
+                    <li class="page-item"><a class="page-link" href="#">8</a></li>
+                    <li class="page-item"><a class="page-link" href="#">9</a></li>
+                    <li class="page-item"><a class="page-link" href="#">10</a></li>
+                </ul>
+            </nav>
+       </section>
+    </main>
+     <footer>
+        <div class="home-padding-small">
+            <div class="footer-title">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#"><img src="img/icon-fb.svg" alt="#" class="footer-title-margin"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="img/icon-seach1-before.svg" alt="#">
+                        </div>
+                        <div class="col-md-4 text-right text-center-mobi">
+                            <a href="#"><img src="img/icon-paypal.svg" alt="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-address">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <div class="footer-address__section">
+                                <img src="img/icon-tele-footer.svg" alt="#">
+                                <p class="font-weight-bold">Điện Thoại</p>
+                                <p class="font-size-14px">0122 . 222 . 4002</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="footer-address__section">
+                                <img src="img/icon-locat-footer.svg" alt="#">
+                                <p class="font-weight-bold">Địa Chỉ</p>
+                                <p class="font-size-14px">29/29 Đoàn Thị Điểm, Phường 1 Quận Phú Nhuận, TP.HCM</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="footer-address__section">
+                                <img src="img/icon-email-footer.svg" alt="#">
+                                <p class="font-weight-bold">Email</p>
+                                <p class="font-size-14px">shopthao@sample.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info text-center">
+                <p>© shophangnhat 2018 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

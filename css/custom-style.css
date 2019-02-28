@@ -1,0 +1,48 @@
+address{
+	display: inline-block;
+	margin-bottom: 0;
+}
+.form-control-xlg{
+	padding: 18px;
+	height: 55px;
+	line-height: 1;
+	font-size: 14px;
+}
+.form-control--custom{
+	border-color: 1px solid #F0F2F7;
+	border-radius: 10px;
+}
+/*
+<section>
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item img">
+                        <img src="img/bg-blog2.png">
+                    </div>
+                    <div class="item img">
+                        <img src="img/bg-blog2.png">
+                    </div>
+                    <div class="item img">
+                        <img src="img/bg-blog2.png">
+                    </div>
+                    <div class="item img">
+                        <img src="img/bg-blog2.png">
+                    </div>
+                    <div class="item img">
+                        <img src="img/bg-blog2.png">
+                    </div>
+                    <div class="item img">
+                        <img src="img/bg-blog2.png">
+                    </div>
+                    <div class="item img">
+                        <img src="img/bg-blog2.png">
+                    </div>
+                    <div class="item img">
+                        <img src="img/bg-blog2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   */
